@@ -1,0 +1,103 @@
+{
+    "publisher": {
+        "name": "Marine Biodiversity Oservation Network", 
+        "onlineResource": "http://oceanservice.noaa.gov/news/apr16/mbon.html", 
+        "contactType": "organization", 
+        "primaryLocation": {}, 
+        "organization": {
+            "displayText": "Marine Biodiversity Oservation Network"
+        }, 
+        "type": "Publisher"
+    }, 
+    "general information": [
+        {
+            "purpose": "Data Distillery development: MBON (GCOOS) data downloads"
+        }, 
+        {
+            "file created (date-time)": "none"
+        }, 
+        {
+            "file modified (date-time)": "none"
+        }, 
+        {
+            "data base url": "none"
+        }, 
+        {
+            "data search url": ""
+        }, 
+        {
+            "data search json": ""
+        }, 
+        {
+            "contacts": "Abigail Benson, Tristan P. Wellman, Steve Aulenbach, Sky Bristol"
+        }, 
+        {
+            "email": "albenson@usgs.gov, twellman@usgs.gov, saulenbach@usgs.gov, sbristol@usgs.gov"
+        }, 
+        {
+            "organization": "U.S. Geological Survey, Core Science Analytics, and Synthesis (B.C.B.)"
+        }, 
+        {
+            "address": "Denver Federal Center, Building 810, Lakewood, Colorado"
+        }
+    ], 
+    "read_names": [
+        "USER:twellman@usgs.gov", 
+        "USER:albenson@usgs.gov", 
+        "USER:sbristol@usgs.gov", 
+        "USER:saulenbach@usgs.gov"
+    ], 
+    "prov_state": "GCOOS MBON data retrieve", 
+    "BCB_contact": {
+        "oldPartyId": 23179, 
+        "jobTitle": "Biologist", 
+        "primaryLocation": {
+            "building": "DFC Bldg 810", 
+            "faxPhone": "3032024229", 
+            "name": "Abigial L Benson/GIO/USGS/DOI - Primary Location", 
+            "streetAddress": {
+                "city": "Lakewood", 
+                "state": "CO", 
+                "zip": "80225-0046", 
+                "line1": "West 6th Ave. & Kipling St., DFC Bldg. 810", 
+                "country": "US"
+            }, 
+            "buildingCode": "KBT", 
+            "mailAddress": {
+                "city": "Denver", 
+                "mailStopCode": "306", 
+                "zip": "80225-0046", 
+                "country": "USA", 
+                "line1": "Box 25046, Denver Federal Center, Mail Stop 306", 
+                "state": "CO"
+            }
+        }, 
+        "contactType": "person", 
+        "active": true, 
+        "name": "Abigail L Benson", 
+        "firstName": "Abigail", 
+        "middleName": "L", 
+        "lastName": "Benson", 
+        "organization": {
+            "displayText": "Scientific Data Integration and Visualization"
+        }, 
+        "type": "Point of Contact", 
+        "email": "albenson@usgs.gov"
+    }, 
+    "write_names": [
+        "USER:twellman@usgs.gov", 
+        "USER:albenson@usgs.gov", 
+        "USER:sbristol@usgs.gov", 
+        "USER:saulenbach@usgs.gov"
+    ], 
+    "processor": {
+        "name": "GCOOS: Gulf of Mexico Coastal Ocean Observing System", 
+        "onlineResource": "http://gcoos.tamu.edu", 
+        "contactType": "organization", 
+        "primaryLocation": {}, 
+        "organization": {
+            "displayText": "GCOOS: Gulf of Mexico Coastal Ocean Observing System"
+        }, 
+        "type": "Processor"
+    }
+}

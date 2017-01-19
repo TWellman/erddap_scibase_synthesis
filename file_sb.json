@@ -1,0 +1,1429 @@
+[
+    {
+        "general information": [
+            {
+                "purpose": "Data Distillery development: MBON (GCOOS) data downloads from TAMU.edu"
+            }, 
+            {
+                "file created (date-time)": "2016-10-11 16:46:10"
+            }, 
+            {
+                "file modified (date-time)": "2017-01-18 16:12:35"
+            }, 
+            {
+                "data base url": "http://gcoos4.tamu.edu:8080/erddap"
+            }, 
+            {
+                "data search url": "http://gcoos4.tamu.edu:8080/erddap/search/advanced.html?searchFor=OBIS&protocol=%28any%29&cdm_data_type=%28any%29&institution=%28any%29&ioos_category=biology&keywords=%28any%29&long_name=%28any%29&standard_name=%28any%29&variableName=%28any%29&maxLon=&minLon=&minTime=&minLat=&maxLat=&maxTime="
+            }, 
+            {
+                "data search json": "http://gcoos4.tamu.edu:8080/erddap/search/advanced.json?searchFor=OBIS&protocol=%28any%29&cdm_data_type=%28any%29&institution=%28any%29&ioos_category=biology&keywords=%28any%29&long_name=%28any%29&standard_name=%28any%29&variableName=%28any%29&maxLon=&minLon=&minTime=&minLat=&maxLat=&maxTime="
+            }, 
+            {
+                "contacts": "Tristan P. Wellman, Abigail Benson, Steve Aulenbach, Sky Bristol"
+            }, 
+            {
+                "email": "twellman@usgs.gov, albenson@usgs.gov, saulenbach@usgs.gov, sbristol@usgs.gov"
+            }, 
+            {
+                "organization": "U.S. Geological Survey, Core Science Systems, Biogeographic Characterization Branch"
+            }, 
+            {
+                "address": "Denver Federal Center, Building 810, Lakewood, Colorado"
+            }
+        ]
+    }, 
+    {
+        "local_directory": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/"
+    }, 
+    {
+        "datasets (id)": {
+            "dt2008": {
+                "sb_id": "57fe7ca1e4b0824b2d146914", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2008.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/dt2008_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/dt2008_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/dt2008.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/dt2008_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2008/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Lengths": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Hydrological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "dt2000": {
+                "sb_id": "57fe9025e4b0824b2d14bd7c", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2000.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/dt2000_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/dt2000_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/dt2000.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/dt2000_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2000/info_request.json"
+                }
+            }, 
+            "CAGES_Alabama_CPUE": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "dt2004": {
+                "sb_id": "57fe93d5e4b0824b2d14cbe1", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2004.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/dt2004_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/dt2004_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/dt2004.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/dt2004_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2004/info_request.json"
+                }
+            }, 
+            "dt2006": {
+                "sb_id": "57fe9410e4b0824b2d14cce5", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2006.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/dt2006_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/dt2006_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/dt2006.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/dt2006_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2006/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Stations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_CPUE": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Stage": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Stations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Species": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Bottom_Vegetation": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Trawls": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_1997": {
+                "sb_id": "57fe9444e4b0824b2d14cdbb", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_1997.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/cremp_1997_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/cremp_1997_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/cremp_1997.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/cremp_1997_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1997/info_request.json"
+                }
+            }, 
+            "cremp_1996": {
+                "sb_id": "57fe986ae4b0824b2d14de59", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_1996.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/cremp_1996_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/cremp_1996_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/cremp_1996.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/cremp_1996_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1996/info_request.json"
+                }
+            }, 
+            "cremp_1999": {
+                "sb_id": "57fe9872e4b0824b2d14de61", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_1999.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/cremp_1999_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/cremp_1999_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/cremp_1999.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/cremp_1999_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1999/info_request.json"
+                }
+            }, 
+            "cremp_1998": {
+                "sb_id": "587f8830e4b085de6c11f242", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_1998.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/cremp_1998_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/cremp_1998_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/cremp_1998.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/cremp_1998_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_1998/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Physical_Methods": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Samples": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_2001": {
+                "sb_id": "57fe9883e4b0824b2d14ded5", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2001.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/cremp_2001_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/cremp_2001_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/cremp_2001.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/cremp_2001_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2001/info_request.json"
+                }
+            }, 
+            "CAGES_Florida_Stations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_CPUE": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_Lengths": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_Samples": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_Trawls_Lengths_IOOS_Standard": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "dt2014": {
+                "sb_id": "57fe9810e4b0824b2d14dd24", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2014.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/dt2014_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/dt2014_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/dt2014.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/dt2014_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2014/info_request.json"
+                }
+            }, 
+            "dt2012": {
+                "sb_id": "57fe988be4b0824b2d14dedd", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2012.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/dt2012_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/dt2012_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/dt2012.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/dt2012_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2012/info_request.json"
+                }
+            }, 
+            "dt2010": {
+                "sb_id": "57fe98e8e4b0824b2d14e072", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt2010.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/dt2010_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/dt2010_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/dt2010.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/dt2010_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt2010/info_request.json"
+                }
+            }, 
+            "CAGES_Florida_Habitat": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Species": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Samples": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Numbering_Methods": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Physical": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Duration": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_CPUE": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Samples": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Trawls": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Gear": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_CPUE": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "dt1999": {
+                "sb_id": "57fe9980e4b0824b2d14e272", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/dt1999.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/dt1999_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/dt1999_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/dt1999.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/dt1999_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/dt1999/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Lengths_CPUE_IOOS_Standard_20130822": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Hydrological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Lengths_CPUE_IOOS_Standard_20130827": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Mississippi_Stations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Trawls": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Species": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "fk2014": {
+                "sb_id": "57fe99a9e4b0824b2d14e2f2", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2014.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/fk2014_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/fk2014_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/fk2014.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/fk2014_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2014/info_request.json"
+                }
+            }, 
+            "fk2012": {
+                "sb_id": "57fe99f7e4b0824b2d14e3f3", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2012.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/fk2012_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/fk2012_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/fk2012.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/fk2012_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2012/info_request.json"
+                }
+            }, 
+            "fk2010": {
+                "sb_id": "57fe9a50e4b0824b2d14e542", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2010.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/fk2010_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/fk2010_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/fk2010.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/fk2010_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2010/info_request.json"
+                }
+            }, 
+            "fk2011": {
+                "sb_id": "57fe9a9de4b0824b2d14e650", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2011.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/fk2011_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/fk2011_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/fk2011.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/fk2011_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2011/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Hydrological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_2008": {
+                "sb_id": "57fe9af0e4b0824b2d14e7a7", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2008.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/cremp_2008_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/cremp_2008_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/cremp_2008.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/cremp_2008_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2008/info_request.json"
+                }
+            }, 
+            "cremp_2009": {
+                "sb_id": "57fe9af8e4b0824b2d14e7af", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2009.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/cremp_2009_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/cremp_2009_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/cremp_2009.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/cremp_2009_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2009/info_request.json"
+                }
+            }, 
+            "CAGES_Mississippi_Lengths": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_2002": {
+                "sb_id": "57fe9affe4b0824b2d14e7fe", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2002.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/cremp_2002_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/cremp_2002_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/cremp_2002.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/cremp_2002_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2002/info_request.json"
+                }
+            }, 
+            "cremp_2003": {
+                "sb_id": "57fe9b07e4b0824b2d14e823", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2003.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/cremp_2003_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/cremp_2003_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/cremp_2003.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/cremp_2003_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2003/info_request.json"
+                }
+            }, 
+            "cremp_2000": {
+                "sb_id": "57fe9b0ee4b0824b2d14e82b", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2000.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/cremp_2000_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/cremp_2000_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/cremp_2000.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/cremp_2000_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2000/info_request.json"
+                }
+            }, 
+            "CAGES_Louisiana_Gear": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_2006": {
+                "sb_id": "57fe9b16e4b0824b2d14e835", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2006.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/cremp_2006_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/cremp_2006_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/cremp_2006.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/cremp_2006_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2006/info_request.json"
+                }
+            }, 
+            "cremp_2007": {
+                "sb_id": "57fe9b20e4b0824b2d14e89f", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2007.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/cremp_2007_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/cremp_2007_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/cremp_2007.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/cremp_2007_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2007/info_request.json"
+                }
+            }, 
+            "cremp_2004": {
+                "sb_id": "57fe9b28e4b0824b2d14e8a7", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2004.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/cremp_2004_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/cremp_2004_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/cremp_2004.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/cremp_2004_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2004/info_request.json"
+                }
+            }, 
+            "cremp_2005": {
+                "sb_id": "57fe9b2fe4b0824b2d14e8af", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2005.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/cremp_2005_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/cremp_2005_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/cremp_2005.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/cremp_2005_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2005/info_request.json"
+                }
+            }, 
+            "fk2002": {
+                "sb_id": "57fe9c45e4b0824b2d14ed30", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2002.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/fk2002_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/fk2002_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/fk2002.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/fk2002_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2002/info_request.json"
+                }
+            }, 
+            "CAGES_Florida_Hydrological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Length_Units": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "fk2005": {
+                "sb_id": "57fe9b37e4b0824b2d14e91b", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2005.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/fk2005_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/fk2005_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/fk2005.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/fk2005_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2005/info_request.json"
+                }
+            }, 
+            "fk2004": {
+                "sb_id": "57fe9b4ce4b0824b2d14e985", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2004.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/fk2004_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/fk2004_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/fk2004.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/fk2004_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2004/info_request.json"
+                }
+            }, 
+            "fk2007": {
+                "sb_id": "57fe9934e4b0824b2d14e141", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2007.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/fk2007_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/fk2007_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/fk2007.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/fk2007_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2007/info_request.json"
+                }
+            }, 
+            "fk2006": {
+                "sb_id": "57fe9b6ae4b0824b2d14e9f1", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2006.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/fk2006_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/fk2006_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/fk2006.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/fk2006_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2006/info_request.json"
+                }
+            }, 
+            "fk2001": {
+                "sb_id": "57fe9ba8e4b0824b2d14eac1", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2001.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/fk2001_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/fk2001_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/fk2001.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/fk2001_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2001/info_request.json"
+                }
+            }, 
+            "fk2000": {
+                "sb_id": "57fe9bf5e4b0824b2d14ebf4", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2000.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/fk2000_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/fk2000_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/fk2000.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/fk2000_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2000/info_request.json"
+                }
+            }, 
+            "fk2003": {
+                "sb_id": "57fe9c2de4b0824b2d14ecc3", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2003.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/fk2003_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/fk2003_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/fk2003.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/fk2003_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2003/info_request.json"
+                }
+            }, 
+            "CAGES_Texas_Stations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "fk2009": {
+                "sb_id": "57fe9c8ee4b0824b2d14ee04", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2009.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/fk2009_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/fk2009_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/fk2009.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/fk2009_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2009/info_request.json"
+                }
+            }, 
+            "fk2008": {
+                "sb_id": "57fe9cf7e4b0824b2d14ef9d", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk2008.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/fk2008_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/fk2008_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/fk2008.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/fk2008_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk2008/info_request.json"
+                }
+            }, 
+            "CAGES_Florida_Lengths": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Weight_Measures": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "cremp_2011": {
+                "sb_id": "57fe9d10e4b0824b2d14f00c", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2011.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/cremp_2011_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/cremp_2011_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/cremp_2011.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/cremp_2011_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2011/info_request.json"
+                }
+            }, 
+            "cremp_2010": {
+                "sb_id": "57fe9d19e4b0824b2d14f06b", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2010.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/cremp_2010_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/cremp_2010_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/cremp_2010.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/cremp_2010_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2010/info_request.json"
+                }
+            }, 
+            "cremp_2013": {
+                "sb_id": "57fe9d21e4b0824b2d14f073", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2013.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/cremp_2013_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/cremp_2013_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/cremp_2013.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/cremp_2013_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2013/info_request.json"
+                }
+            }, 
+            "cremp_2012": {
+                "sb_id": "57fe9d29e4b0824b2d14f0cb", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/cremp_2012.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/cremp_2012_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/cremp_2012_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/cremp_2012.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/cremp_2012_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/cremp_2012/info_request.json"
+                }
+            }, 
+            "CAGES_Texas_Trawls": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Bottom_Type": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "fk1996": {
+                "sb_id": "57fe9d33e4b0824b2d14f0e6", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1996.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/fk1996_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/fk1996_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/fk1996.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/fk1996_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1996/info_request.json"
+                }
+            }, 
+            "fk1997": {
+                "sb_id": "57fe9d48e4b0824b2d14f14c", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1997.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/fk1997_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/fk1997_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/fk1997.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/fk1997_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1997/info_request.json"
+                }
+            }, 
+            "fk1994": {
+                "sb_id": "57fe9d79e4b0824b2d14f219", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1994.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/fk1994_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/fk1994_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/fk1994.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/fk1994_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1994/info_request.json"
+                }
+            }, 
+            "fk1995": {
+                "sb_id": "57fe9d82e4b0824b2d14f221", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1995.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/fk1995_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/fk1995_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/fk1995.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/fk1995_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1995/info_request.json"
+                }
+            }, 
+            "fk1998": {
+                "sb_id": "57fe9da4e4b0824b2d14f28e", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1998.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/fk1998_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/fk1998_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/fk1998.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/fk1998_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1998/info_request.json"
+                }
+            }, 
+            "fk1999": {
+                "sb_id": "57fe9dd9e4b0824b2d14f3a2", 
+                "dataset_url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/fk1999.html", 
+                "download": "YES", 
+                "upload": "YES", 
+                "files": {
+                    "info_dict": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/info_dict.json", 
+                    ".csv": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/fk1999_712b_5843_9069.csv", 
+                    ".nc": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/fk1999_8571_f367_229e.nc", 
+                    ".ncHeader": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/fk1999.ncHeader", 
+                    ".iso19115": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/fk1999_iso19115.xml", 
+                    "info_request": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test/fk1999/info_request.json"
+                }
+            }, 
+            "CAGES_Florida_Bycatch": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Biological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_Species": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Shore_Type": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_Hydrological": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Alabama_Lengths": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Louisiana_Observations": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Texas_SubBays": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }, 
+            "CAGES_Florida_Species": {
+                "sb_id": "None", 
+                "dataset_url": "None", 
+                "download": "incomplete", 
+                "upload": "incomplete", 
+                "files": {
+                    "info_dict": "None", 
+                    ".csv": "None", 
+                    ".nc": "None", 
+                    ".ncHeader": "None", 
+                    ".iso19115": "None", 
+                    "info_request": "None"
+                }
+            }
+        }
+    }
+]

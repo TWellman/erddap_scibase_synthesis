@@ -1,0 +1,43 @@
+[
+    {
+        "general information": [
+            {
+                "purpose": "Data Distillery development: MBON (GCOOS) data downloads"
+            },
+            {
+                "file created (date-time)": "2017-01-18 15:44:34"
+            },
+            {
+                "file modified (date-time)": "none"
+            },
+            {
+                "data base url": "http://gcoos4.tamu.edu:8080/erddap"
+            },
+            {
+                "data search url": "http://gcoos4.tamu.edu:8080/erddap/tabledap/index.html?page=1&itemsPerPage=1000"
+            },
+            {
+                "data search json": "http://gcoos4.tamu.edu:8080/erddap/tabledap/index.json?page=1&itemsPerPage=1000"
+            },
+            {
+                "contacts": "Abigail Benson, Tristan P. Wellman, Steve Aulenbach, Sky Bristol"
+            },
+            {
+                "email": "albenson@usgs.gov, twellman@usgs.gov, saulenbach@usgs.gov, sbristol@usgs.gov"
+            },
+            {
+                "organization": "U.S. Geological Survey, Core Science Analytics, and Synthesis (B.C.B.)"
+            },
+            {
+                "address": "Denver Federal Center, Building 810, Lakewood, Colorado"
+            }
+        ]
+    },
+    {
+        "local_directory": "/Users/twellman/Documents/BCB_data_projects/OBIS_usa_database/erddap_MBON_test2/"
+    },
+    {
+        "datasets (id)": {
+        }
+    }
+]
