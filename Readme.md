@@ -4,12 +4,12 @@ This repository contains files to perform simple prototyping and tasks associate
 
 Functions:
 -----------
-  a) search ERDDAP by category, protocol, keyword         
-  b) request / process data using an 'advanced search url'
-  c) create / modify ScienceBase records
-  d) examine / QC metadata and other information
-  e) search for duplicate records by title, filenames, and dataset ID
-  f) generate date-time stamped input files and processing uuid for provenance.
+    a) search ERDDAP by category, protocol, keyword         
+    b) request / process data using an 'advanced search url'
+    c) create / modify ScienceBase records
+    d) examine / QC metadata and other information
+    e) search for duplicate records by title, filenames, and dataset ID
+    f) generate date-time stamped input files and processing uuid for provenance.
 
   Simple prototyping and tasks are currently constructed
 
