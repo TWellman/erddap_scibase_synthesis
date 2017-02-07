@@ -1,6 +1,7 @@
 ERDDAP-SCIENCEBASE PROCESSING
 ===============================
-This repository contains files to perform simple prototyping and tasks associated with retrieving data files and metadata from an ERDDAP server and creating and modifying ScienceBase items. This program attempts to strike a balance between using an ERDDAP server directly and working mainly within a Python environment for processing files and information to ScienceBase. 
+This repository contains Python files to perform basic tasks associated with retrieving data files and metadata from an ERDDAP server and, processing records, and creating and modifying ScienceBase items. This project attempts to strike a balance between using an ERDDAP server directly and working mainly within a Python environment for processing files and information to ScienceBase.
+
 
 Functions:
 -----------
@@ -12,6 +13,7 @@ Functions:
     f) generate date-time stamped input files and processing uuid for provenance.
 
   Simple prototyping and tasks are currently constructed
+
 
 Development Status:
 -------------------
