@@ -1,6 +1,6 @@
 ERDDAP-SCIENCEBASE PROCESSING
 ===============================
-This repository contains Python files to perform basic tasks associated with retrieving data files and metadata from an ERDDAP server, processing data records, and creating and modifying ScienceBase items. The project attempts to strike a balance between using an ERDDAP server directly and working mainly within a Python environment.
+This repository contains Python files to perform basic tasks associated with retrieving data files and metadata from an ERDDAP server, processing data records, and creating and modifying ScienceBase items. The work described herein attempts to strike a balance between using an ERDDAP server directly and working mainly within a Python environment.
 
 
 Functions:
